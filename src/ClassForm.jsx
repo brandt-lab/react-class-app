@@ -82,7 +82,7 @@ gen:"",
               name="fullName" ></input>
             <h1>Gen</h1>
 
-            <input placeholder='number' onChange={this.handleChange} 
+            <input placeholder='Name' onChange={this.handleChange} 
             name="Gen" ></input>
             <input type="submit"></input>
         </form>

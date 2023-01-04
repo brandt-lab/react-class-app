@@ -8,27 +8,27 @@ export default class ClassForm extends Component {
         this.state = {
             students:[
                 {       
-            fullName:"Lexis", 
+             FullName:"Lexis", 
             Gen:23,        
         },
 
         {
                     
-            fullName:"Josh", 
+            FullName:"Josh", 
             Gen:23,
         
         },
 
         {
                     
-            fullName:"Sam", 
+            FullName:"Sam", 
             Gen:23,
         
         },
 
         {
                     
-            fullName:"Badiako", 
+            FullName:"Badiako", 
             Gen:23,
         
         },
@@ -36,7 +36,7 @@ export default class ClassForm extends Component {
         
     ],
 
-    fullName:"will",
+    FullName:"will",
     Gen:"",
              
         };
@@ -64,12 +64,9 @@ students:[...this.state.students,newStudent],
 name:"",
 gen:"",
 
-
 })
 
 }
-
-
 
   render() {
     return (
@@ -77,9 +74,9 @@ gen:"",
         {/* <h1>{this.state.students[0].fullName}</h1> */}
 
         <form>
-            <h1>fullName</h1>
-            <input type="text  " placeholder="fullName" onChange={this.handleChange}
-              name="fullName" ></input>
+            <h1>Full Name</h1>
+            <input type="text  " placeholder="Full Name" onChange={this.handleChange}
+              name="Full Name" ></input>
             <h1>Gen</h1>
 
             <input placeholder='Name' onChange={this.handleChange} 
